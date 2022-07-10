@@ -1,0 +1,20 @@
+---
+- students:
+  - name: anil
+    ph.no: 395739594
+    address: 
+        d.no: 23
+        pin: 54332
+
+  - name: suni
+    ph.no: 395739594
+    address: 
+       d.no: 32
+       pin: 234567
+
+  - name: venil
+    ph.no: 395739594
+    address: 
+       d.no: 34
+       pin: 3452
+  
