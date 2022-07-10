@@ -4,5 +4,5 @@
   tasks:
   - name: install webserver on node side
     apt:
-     name: nginx
+     name: apache2
      state: present
