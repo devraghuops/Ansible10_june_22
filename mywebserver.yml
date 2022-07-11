@@ -9,5 +9,5 @@
   - name: restart server
     service:
       name: apache2
-      state: reloaded 
+      state: stopped 
   #  when: ansible_os_family=="Debian"   
