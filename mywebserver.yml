@@ -9,6 +9,12 @@
      state: present
     when: ansible_os_family=="Debian"   
 
+  - name: start the web server
+    service:
+        name: apache2
+        state: started
+    when: ansible_os_family=="Debian"    
+
 
   - name: install webserver redhat node side
     yum:
@@ -19,4 +25,5 @@
   - name: restart httpd server
     service:
         name: httpd
-        state: restarted  
+        state: started  
+    when: ansible_os_family=="RedHat"    
