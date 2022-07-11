@@ -6,8 +6,8 @@
     apt:
      name: apache2
      state: present
- # - name: restart server
-  #  service:
-  #     name: apache2
-  #     state: started 
+  - name: restart server
+    service:
+      name: apache2
+      state: restarted 
   #  when: ansible_os_family=="Debian"   
