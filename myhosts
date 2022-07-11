@@ -10,3 +10,7 @@
 [myAPPservers]
 172.31.22.75
 172.31.9.235
+
+[mywebservers:vars]
+mywebpackonubuntu=apache222
+mywebpackonredhat=httpd
