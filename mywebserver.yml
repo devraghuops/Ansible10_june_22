@@ -8,3 +8,10 @@
      name: apache2
      state: present
     when: ansible_os_family=="Debian"   
+
+
+  - name: install webserver redhat node side
+    yum:
+     name: httpd
+     state: present
+    when: ansible_os_family=="RedHat" 
