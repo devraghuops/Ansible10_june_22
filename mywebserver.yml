@@ -5,10 +5,9 @@
   - name: install webserver on node side
     apt:
      name: apache2
-     state: present
-
-  - name: restart server
-    service:
-       name: apache2
-       state: started
+     state: absent
+ # - name: restart server
+  #  service:
+  #     name: apache2
+  #     state: started 
   #  when: ansible_os_family=="Debian"   
