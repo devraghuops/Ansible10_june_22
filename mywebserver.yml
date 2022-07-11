@@ -15,3 +15,8 @@
      name: httpd
      state: present
     when: ansible_os_family=="RedHat" 
+
+  - name: restart httpd server
+    service:
+        name: httpd
+        state: restarted  
