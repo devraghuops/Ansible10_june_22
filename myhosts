@@ -1,6 +1,5 @@
 [mywebservers]
 172.31.22.72
-172.31.9.236
 
 
 [myDBservers]
@@ -10,6 +9,8 @@
 [myAPPservers]
 172.31.22.75
 172.31.9.235
+172.31.9.236
+
 
 [mywebservers:vars]
 mywebpackonubuntu=nginx
