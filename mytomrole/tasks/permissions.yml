@@ -1,6 +1,7 @@
 ---
+- become_method: sudo
 - name: grant tomcat ownership
-  command: sudo chown -R tomcat:tomcat /opt/tomcat/
+  command:  sudo chown -R tomcat:tomcat /opt/tomcat/
 
 
 - name: tomcat execute permissions  
