@@ -1,6 +1,6 @@
 ---
 - name: grant tomcat ownership
-  command:  sudo chown -R tomcat:tomcat /opt/tomcat/
+  command:  sudo chown -R raghu:raghu /opt/tomcat/
 
 
 - name: tomcat execute permissions  
